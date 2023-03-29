@@ -4,11 +4,8 @@ import myImg from '../assets/Images/mypic.jpeg'
 const About = () => {
   return (
     <Container id='about'>
-      <Row className='p-5 m-5 g-5 d-flex align-items-center'>
-        <Col sm={{ order: 'first' }}>
-          <Image src={myImg} alt='myImg' className=' rounded-circle' />
-        </Col>
-        <Col sm={6} className='descriptive'>
+      <Row className='p-5 m-5 g-5 justify-content-center d-flex align-items-center'>
+        <Col className='descriptive'>
           <h1>
             Hi,
             <span className='text-primary'>
