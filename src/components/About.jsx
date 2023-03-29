@@ -4,7 +4,7 @@ const About = () => {
   return (
     <Container id='about'>
       <Row className='p-5 m-5 g-5 justify-content-center d-flex align-items-center'>
-        <Col className='descriptive'>
+        <Col className='descriptive text-center'>
           <h1>
             Hi,
             <span className='text-primary'>
