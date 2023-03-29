@@ -7,9 +7,7 @@ const About = () => {
         <Col className='descriptive text-center'>
           <h1>
             Hi,
-            <span className='text-primary'>
-              I'm Akindele <br /> Agun
-            </span>
+            <span className='text-primary'>I'm Akindele Agun</span>
           </h1>
           <p>
             I'm a Software Engineer that welcomes challenges and Frontend Design
