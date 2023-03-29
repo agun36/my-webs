@@ -15,7 +15,7 @@ const ProjectOutlook = () => {
           <Card style={{ width: 'auto' }}>
             <Card.Img variant='top' src={creditcard} />
             <Card.Body>
-              <Card.Title className=''>Frontend Mentor</Card.Title>
+              <Card.Title className=''>Credit card</Card.Title>
               <Card.Text className=' '>
                 This project really build me a lot. It is from Mobile design to
                 Desktop design.It is a two column website.
@@ -37,7 +37,7 @@ const ProjectOutlook = () => {
           <Card style={{ width: 'auto' }}>
             <Card.Img variant='top' src={flyo} />
             <Card.Body>
-              <Card.Title>Card Title</Card.Title>
+              <Card.Title>flyo</Card.Title>
               <Card.Text>
                 Some quick example text to build on the card title and make up
                 the bulk of the card's content.
@@ -58,7 +58,7 @@ const ProjectOutlook = () => {
           <Card style={{ width: 'auto' }}>
             <Card.Img variant='top' src={Mac} />
             <Card.Body>
-              <Card.Title>Card Title</Card.Title>
+              <Card.Title>clipboard</Card.Title>
               <Card.Text>
                 Some quick example text to build on the card title and make up
                 the bulk of the card's content.
@@ -77,7 +77,7 @@ const ProjectOutlook = () => {
           <Card style={{ width: 'auto' }}>
             <Card.Img variant='top' src={snap} />
             <Card.Body>
-              <Card.Title>Frontend Mentor</Card.Title>
+              <Card.Title>snap Dropdown</Card.Title>
               <Card.Text>
                 Some quick example text to build on the card title and make up
                 the bulk of the card's content.
