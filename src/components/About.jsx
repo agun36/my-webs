@@ -1,6 +1,5 @@
 import React from 'react'
-import { Col, Container, Image, Row } from 'react-bootstrap'
-import myImg from '../assets/Images/mypic.jpeg'
+import { Col, Container, Row } from 'react-bootstrap'
 const About = () => {
   return (
     <Container id='about'>
