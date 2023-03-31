@@ -6,7 +6,7 @@ const HeadingConcept = () => {
     <>
       <Container id='hire'>
         <Row className='p-5 d-flex align-items-center'>
-          <Col sm={6}>
+          <Col className='decribe' sm={6}>
             I am a Software Engineering, my goal is to create robust,
             high-quality software solutions that meet the needs of my clients. I
             strive to develop innovative solutions that are easy to use and

@@ -1,24 +1,31 @@
 import { Button, Card, Col, Container, Row } from 'react-bootstrap'
-import { Link } from 'react-router-dom'
-import Mac from '../assets/Images/Mac.png'
-import creditcard from '../assets/Images/credit-card.png'
-import snap from '../assets/Images/snap.png'
-import flyo from '../assets/Images/flyo.png'
+import { Data } from './Data'
 const ProjectOutlook = () => {
   return (
     <Container id='project'>
       <h2 className='text-center  mb-5'>
         Frontend Mentor <br /> Project Outlook
       </h2>
-      <Row className='  '>
-        <Col sm={6} className='mb-3 cards-items'>
-          <Card style={{ width: 'auto' }}>
+      <Row className=' g-4 justify-content-center m-5 p-5 '>
+        {Data.map((item) => (
+          <Col xs={12} md={6} style={{ maxWidth: '20rem' }}>
+            <Card key={item.id} className=''>
+              <Card.Img src={item.project}></Card.Img>
+              <Card.Body>
+                <Card.Title>{item.title}</Card.Title>
+                <Card.Text>{item.text}</Card.Text>
+                <Button>{item.link}</Button>
+              </Card.Body>
+            </Card>
+          </Col>
+        ))}
+        {/* <Col md={6} className='mb-3 cards-items'>
+          <Card>
             <Card.Img variant='top' src={creditcard} />
             <Card.Body>
               <Card.Title className=''>Credit card</Card.Title>
               <Card.Text className=' '>
-                This project really build me a lot. It is from Mobile design to
-                Desktop design.It is a two column website.
+          
               </Card.Text>
               <div className='btn-credit'>
                 <Button
@@ -32,8 +39,8 @@ const ProjectOutlook = () => {
               </div>
             </Card.Body>
           </Card>
-        </Col>
-        <Col sm={6} className='mb-3'>
+        </Col> */}
+        {/* <Col md={6} className='mb-3'>
           <Card style={{ width: 'auto' }}>
             <Card.Img variant='top' src={flyo} />
             <Card.Body>
@@ -51,11 +58,11 @@ const ProjectOutlook = () => {
               </Button>
             </Card.Body>
           </Card>
-        </Col>
+        </Col> */}
       </Row>
-      <Row className=''>
-        <Col sm={6} className='mb-4'>
-          <Card style={{ width: 'auto' }}>
+      {/* <Row className=' d-flex justify-contents-center w-100 m-auto'>
+        <Col xs={12} md={6} className='mb-4'>
+          <Card>
             <Card.Img variant='top' src={Mac} />
             <Card.Body>
               <Card.Title>clipboard</Card.Title>
@@ -73,8 +80,8 @@ const ProjectOutlook = () => {
             </Card.Body>
           </Card>
         </Col>
-        <Col sm={6}>
-          <Card style={{ width: 'auto' }}>
+        <Col xs={12} md={6}>
+          <Card>
             <Card.Img variant='top' src={snap} />
             <Card.Body>
               <Card.Title>snap Dropdown</Card.Title>
@@ -99,7 +106,7 @@ const ProjectOutlook = () => {
             Find Out More
           </Button>
         </Col>
-      </Row>
+      </Row> */}
     </Container>
   )
 }
