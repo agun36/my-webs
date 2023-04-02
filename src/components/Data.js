@@ -5,7 +5,7 @@ export const Data = [
     title: 'credits',
     text: 'This project really build me a lot. It contains javascript, it is a junior project',
     project: credit,
-    link: 'Go to credit-card access',
+    link: 'Go to card',
   },
   {
     id: 2,
