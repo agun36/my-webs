@@ -6,7 +6,7 @@ const HeadingConcept = () => {
     <>
       <Container id='hire'>
         <Row className='align-items-center justify-content-center   mt-5 mb-5 pt-5  pb-5 '>
-          <Col className=' text-center ' sm={6} md={6}>
+          <Col className=' text-center ' sm={6} md={8}>
             I am a Software Engineering, my goal is to create robust,
             high-quality software solutions that meet the needs of my clients. I
             strive to develop innovative solutions that are easy to use and
@@ -16,7 +16,7 @@ const HeadingConcept = () => {
             committed to working with my clients to ensure that the software
             solutions I develop are meeting their needs.
           </Col>
-          <Col sm={6} md={6}>
+          <Col sm={6} md={4}>
             <Image className='thumbnail mb-4' src={headingImg} alt='heading' />
           </Col>
         </Row>
