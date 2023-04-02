@@ -8,7 +8,12 @@ const ProjectOutlook = () => {
       </h2>
       <Row className=' g-4 justify-content-center m-5 p-5 '>
         {Data.map((item) => (
-          <Col xs={12} md={6} style={{ maxWidth: '30rem' }}>
+          <Col
+            className='col-card'
+            xs={12}
+            md={6}
+            style={{ maxWidth: '30rem' }}
+          >
             <Card key={item.id} className=''>
               <Card.Img src={item.project}></Card.Img>
               <Card.Body>
