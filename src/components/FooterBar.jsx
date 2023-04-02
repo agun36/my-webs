@@ -5,7 +5,7 @@ const FooterBar = () => {
   return (
     <div id='contact' className='bg-primary footer'>
       <Container>
-        <Row className='p-5 '>
+        <Row className='p-4'>
           <Col sm={4}>
             <h3 className='text-info'>
               AKi<sub>n</sub>
