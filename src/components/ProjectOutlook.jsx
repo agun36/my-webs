@@ -7,7 +7,7 @@ const ProjectOutlook = () => {
       <h2 className='text-center  mb-5'>
         Frontend Mentor <br /> Project Outlook
       </h2>
-      <Row className=' g-4 justify-content-center m-5 p-5 '>
+      <Row className=' g-4 justify-content-center  p-5 '>
         {Data.map((item) => (
           <Col xs={12} md={6} style={{ maxWidth: '20rem' }}>
             <Card key={item.id} className=''>
