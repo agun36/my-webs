@@ -136,7 +136,7 @@ text-align: center;
 }
 @media (min-width:300px) { 
   .col-card{
-    min-width: 18rem !important;
+    max-width: 18rem !important;
   }
 }
 
