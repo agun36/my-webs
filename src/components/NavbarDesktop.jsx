@@ -1,10 +1,16 @@
 import { useEffect, useState } from 'react'
-import { Container, Nav, Navbar } from 'react-bootstrap'
+import {
+  Container,
+  ListGroup,
+  ListGroupItem,
+  Nav,
+  Navbar,
+} from 'react-bootstrap'
 
 const NavbarDesktop = () => {
   const [navBackground, setNavBackground] = useState('transparent')
 
-  const [linkColor, setLinkColor] = useState('light')
+  const [linkColor, setLinkColor] = useState('light ')
 
   const [menuVariant, setMenuVariant] = useState('light')
 
@@ -43,7 +49,7 @@ const NavbarDesktop = () => {
     >
       <Container>
         <Navbar.Brand href='#home' active={false} className={linkColor}>
-          <h3 className='text-info'>
+          <h3 className='text-info '>
             AKi<sub>n</sub>
             <sup className='text-dark'>Tech</sup>
           </h3>
@@ -52,19 +58,29 @@ const NavbarDesktop = () => {
         <Navbar.Collapse id='basic-navbar-nav' className='justify-content-end'>
           <Nav className='justify-content-end'>
             <Nav.Link href='#home' active={false} className={linkColor}>
-              Home
+              <ListGroup>
+                <ListGroupItem variant='info'> Home</ListGroupItem>
+              </ListGroup>
             </Nav.Link>
             <Nav.Link href='#about' active={false} className={linkColor}>
-              About
+              <ListGroup>
+                <ListGroupItem variant='info'>About</ListGroupItem>
+              </ListGroup>
             </Nav.Link>
-            <Nav.Link href='#project ' active={false} className={linkColor}>
-              Project Outlook
+            <Nav.Link href='#project ' active={false}>
+              <ListGroup>
+                <ListGroupItem variant='info'>Project Outlook</ListGroupItem>
+              </ListGroup>
             </Nav.Link>
-            <Nav.Link href='#contact' active={false} className={linkColor}>
-              Contact us
+            <Nav.Link href='#contact' active={false}>
+              <ListGroup>
+                <ListGroupItem variant='info'>Contact us</ListGroupItem>
+              </ListGroup>
             </Nav.Link>
             <Nav.Link href='#hire' active={false} className={linkColor}>
-              Hire us
+              <ListGroup>
+                <ListGroupItem variant='info'>Hire us</ListGroupItem>
+              </ListGroup>
             </Nav.Link>
           </Nav>
         </Navbar.Collapse>
